@@ -1,6 +1,6 @@
 # Instalación y configuración de `uv`
 
-[Inicio](../init.md) > [`uv`](init-uv.md)
+[Inicio](../inicio.md) > [`uv`](inicio-uv.md)
 
 ---
 

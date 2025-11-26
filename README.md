@@ -1,3 +1,5 @@
 # development-notebook
 
-This repository is dedicated to storing my personal notes and insights as an application developer, covering concepts, best practices, and useful references for future projects.
+Este repositorio está dedicado a almacenar mis notas personales y conocimientos como desarrollador de aplicaciones, cubriendo conceptos, mejores prácticas y referencias útiles para proyectos futuros.
+
+Para empezar, `inicio.md`.
