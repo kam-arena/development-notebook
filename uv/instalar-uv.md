@@ -1,9 +1,5 @@
 # Instalación y configuración de `uv`
 
-[Inicio](../inicio.md) > [`uv`](inicio-uv.md)
-
----
-
 `uv` es una herramienta de Astral para gestionar entornos y dependencias de Python con un enfoque rápido y reproducible.
 
 ## Requisitos previos

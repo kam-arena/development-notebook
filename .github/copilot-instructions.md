@@ -8,13 +8,12 @@ Este proyecto es un bloc de notas para desarrolladores, que almacena conocimient
 - Las distintas materias se organizan en carpetas separadas siguiendo una estructura en árbol.
 - Nombres de archivos y carpetas en minúsculas y separados por guiones.
 - Se sigue el estándar de Markdown para la documentación.
-- Se incluyen enlaces internos entre notas relacionadas para facilitar la navegación.
 - Se utiliza un lenguaje claro y conciso, evitando jerga innecesaria.
 - Se incluyen ejemplos de código cuando sea relevante para ilustrar conceptos.
 - Se mantiene una consistencia en el formato de títulos, subtítulos y listas.
 - En todos los archivos se incluye una breve descripción al inicio para contextualizar el contenido.
-- En todos los archivos se añaden enlaces de tipo migas de pan para volver a los niveles superiores.
 - Dividir el contenido cuando sea demasiado extenso, creando notas adicionales si es necesario.
+- Cuando se crea un bloque de código siempre especificar el lenguaje del bloque después de las tres comillas invertidas iniciales.
 
 ## Restricciones
 - No debe incluir información personal o sensible en las notas.

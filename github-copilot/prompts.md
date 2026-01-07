@@ -12,7 +12,6 @@ Un *prompt* es una instrucción o pregunta que se le proporciona a GitHub Copilo
 - **Divide tareas complejas:** Si la tarea es extensa, divídela en pasos o solicita partes específicas.
 - **Revisa y ajusta:** Si el resultado no es el esperado, reformula el prompt para ser más claro o detallado.
 
-
 ## Ejemplos de prompts
 
 ### Ejemplo 1: Solicitud de función simple
@@ -45,3 +44,31 @@ Genera la documentación en formato Markdown para la función sumar_numeros(a, b
 - Utiliza ejemplos de entrada y salida para clarificar el comportamiento esperado.
 - Si necesitas un estilo de codificación específico, indícalo en el prompt.
 - Para obtener explicaciones, pide que se incluyan comentarios en el código generado.
+
+## Directorio de prompts personalizados en `.github/prompts`
+
+> **Descripción:**  
+> Es posible crear un directorio especial en tu repositorio llamado `.github/prompts` donde puedes guardar ficheros Markdown con instrucciones personalizadas para reutilizarlas fácilmente en GitHub Copilot.
+
+### ¿Cómo funciona?
+
+1. **Crea el directorio:**  
+   Dentro de la raíz de tu repositorio, crea la carpeta `.github/prompts`.
+
+2. **Agrega tus prompts:**  
+   En esa carpeta, añade archivos Markdown (`.md`) con las instrucciones o plantillas que desees reutilizar.
+
+3. **Invoca tus prompts en el chat:**  
+   Cuando uses el chat de GitHub Copilot, puedes llamar a estos prompts personalizados usando el formato:
+
+   ```markdown
+   /prompt-nombre
+   ```
+
+   Donde `nombre` corresponde al nombre del archivo (sin la extensión `.md`). Por ejemplo, si tienes un archivo llamado `estandar-python.md`, puedes invocarlo con `/prompt-estandar-python`.
+
+### Ventajas
+
+- Permite reutilizar instrucciones y plantillas de manera rápida.
+- Facilita la colaboración y el uso de buenas prácticas en el equipo.
+- Mantiene organizados los prompts personalizados dentro del repositorio.
